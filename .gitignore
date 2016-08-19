@@ -1,0 +1,18 @@
+# Project
+.project
+.settings
+.classpath
+
+#target
+target/
+
+# mac crap
+.DS_Store
+
+# Logs
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
