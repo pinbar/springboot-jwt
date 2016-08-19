@@ -34,7 +34,8 @@
 * some information in the payload is encrypted for privacy
 
 ### encryption
-* a part of the jwt claim is encrypted before signing and then decrypted after verification for privacy
+* a part of the jwt claims/playload is encrypted before signing and then decrypted after verification for privacy
+* this is different from JWE, where only the signature is encrypted while the claims/payload can be easily decoded and read
 
 ### chaos
 * a filter that introduces `500 - Internal Server Error` errors randomly for any `/oracle/*` api call

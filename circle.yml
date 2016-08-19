@@ -4,7 +4,7 @@ test:
   post:
     - mvn jacoco:report
     - mkdir $CIRCLE_TEST_REPORTS/junit
-    - mv target/site/jacoco/jacoco.xml $CIRCLE_TEST_REPORTS/junit
+    - mv target/surefire-reports/*.xml $CIRCLE_TEST_REPORTS/junit
     - mkdir $CIRCLE_ARTIFACTS/coverage
     - mv target/site/jacoco/index.html $CIRCLE_ARTIFACTS/coverage
     - mv target/site/jacoco/com.pinbar.springbootjwt $CIRCLE_ARTIFACTS/coverage
