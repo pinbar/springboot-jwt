@@ -2,7 +2,7 @@ test:
   override:
     - mvn test
   post:
-    - mvn jacoco:report
+    - mvn jacoco:report coveralls:report
     - mkdir $CIRCLE_TEST_REPORTS/junit
     - mv target/surefire-reports/*.xml $CIRCLE_TEST_REPORTS/junit
     - mkdir $CIRCLE_ARTIFACTS/coverage

@@ -2,6 +2,10 @@
 
 [![CircleCI](https://circleci.com/gh/pinbar/springboot-jwt.svg?style=svg)](https://circleci.com/gh/pinbar/springboot-jwt) 
 
+[![Coverage Status](https://coveralls.io/repos/github/pinbar/springboot-jwt/badge.svg?branch=master)](https://coveralls.io/github/pinbar/springboot-jwt?branch=master)
+
+[![Code Climate](https://codeclimate.com/github/pinbar/springboot-jwt/badges/gpa.svg)](https://codeclimate.com/github/pinbar/springboot-jwt)
+
 ### tech stack
 * **springboot** - an opinionated spring starter
 * **java-jwt** - a jwt implementation for java
