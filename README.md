@@ -12,15 +12,17 @@
 
 ### getting started
 * ensure you have java and maven installed: `mvn --version`
-* clone repo and `mvn install`
-* in the project directory, run `mvn spring-boot:run`
-* launch the browser and point to the baseurl `localhost:8080` (port can be changed in `application.properties`)
+* clone repo and run `mvn install` in the project directory
+* to start the app, run `mvn spring-boot:run`
+* launch the browser and point to the baseurl `localhost:8080/` (port can be changed in `application.properties`)
 
 ### running tests
 * tests are in `src/test/java` directory, which includes both `unit` and `integration` tests
 * to run all the tests, run `mvn test` in the project directory
 * to run a single test, run `mvn test -Dtest=<test file name>`
-* **test coverage:** coverage reports are in `target/site/index.html` directory (can be changed in `pom.xml` in the jacoco plugin configuration)
+* **test coverage:** 
+    * jacoco report in html format is here: `target/site/jacoco index.html`
+    * surefire reports are in the `target/surefire-reports/` directory
 
 ### api and authentication scenarios
 * access the unsecure api `GET /metacortex`
