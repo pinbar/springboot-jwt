@@ -7,8 +7,9 @@
 ### tech stack
 * **springboot** - an opinionated spring starter
 * **java-jwt** - a jwt implementation for java
-* **jacoco** - for instrumentation and test coverage
 * **maven** - a build and dependency management tool
+* **swagger** - for api documentation
+* **jacoco** - for test coverage
 
 ### getting started
 * ensure you have java and maven installed: `mvn --version`
@@ -36,6 +37,11 @@
     * `Authorization: Bearer \<token\>`
 * `GET /api/megacity` can be accessed with any token but `GET /api/levrai` can only be accessed with neo's token
 * some information in the payload is encrypted for privacy
+
+### api documentation
+* this project uses `swagger` for documenting APIs. Start the server to access live docs.
+* a json representation is available at `/v2/api-docs`
+* a human readable html view is available at: `/swagger-ui.html`. This UI also allows you to interact with the APIs
 
 ### encryption
 * a part of the jwt claims/playload is encrypted before signing and then decrypted after verification for privacy
