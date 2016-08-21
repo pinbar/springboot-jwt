@@ -1,8 +1,8 @@
 ## A simple example of springboot api and jwt authentication
 
-[![CircleCI](https://circleci.com/gh/pinbar/springboot-jwt.svg?style=svg)](https://circleci.com/gh/pinbar/springboot-jwt) 
+[![Circle CI](https://img.shields.io/circleci/project/pinbar/springboot-jwt/master.svg)](https://circleci.com/gh/pinbar/springboot-jwt)  [![Coverage Status](https://coveralls.io/repos/github/pinbar/springboot-jwt/badge.svg?branch=master)](https://coveralls.io/github/pinbar/springboot-jwt?branch=master)  
 
-[![Coverage Status](https://coveralls.io/repos/github/pinbar/springboot-jwt/badge.svg?branch=master)](https://coveralls.io/github/pinbar/springboot-jwt?branch=master)  [![Code Climate](https://codeclimate.com/github/pinbar/springboot-jwt/badges/gpa.svg)](https://codeclimate.com/github/pinbar/springboot-jwt)  [![Issue Count](https://codeclimate.com/github/pinbar/springboot-jwt/badges/issue_count.svg)](https://codeclimate.com/github/pinbar/springboot-jwt)
+[![Code Climate](https://codeclimate.com/github/pinbar/springboot-jwt/badges/gpa.svg)](https://codeclimate.com/github/pinbar/springboot-jwt)  [![Issue Count](https://codeclimate.com/github/pinbar/springboot-jwt/badges/issue_count.svg)](https://codeclimate.com/github/pinbar/springboot-jwt)
 
 ### tech stack
 * **springboot** - an opinionated spring starter
